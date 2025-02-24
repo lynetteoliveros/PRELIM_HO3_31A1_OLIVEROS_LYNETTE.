@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+nav ul li:hover {
+  background-color: #555;
+}
+nav ul li.active {
+  background-color: #007bff;
+}
+.content {
+  margin-top: 20px;
+}
+input {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+}
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+li:hover {
+  background-color: #ddd;
+}
+
+/* Home Content Styles */
+.home-content {
+  font-size: 12px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.home-content h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.home-content h3 {
+  margin-bottom: 15px;
+}
+
+/* Styling for Delete Button */
+button {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+}
